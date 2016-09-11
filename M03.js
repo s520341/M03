@@ -45,19 +45,6 @@ var App = {
       output += arguments[i];
     }
     return output;
-  },
-  add: function () {
-    var output = 0;
-    for (var i = 0; i < arguments.length; i++) {
-      output += arguments[i];
-    }
-    return output;
-  },
-  square: function (number) {
-    if (typeof number !== 'number') {
-      throw Error('The given argument is not a number');
-    }
-    return number * number;
   }
 };
 
